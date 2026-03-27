@@ -1,0 +1,29 @@
+game runner
+-cards
+    -card_name, mana value, controller, targets (only valid on stack),
+-zones
+    -2 hands, board, 1 library, 1 graveyard, stack
+-players
+    -legal actions
+        -known info
+            -active player hand, non-active player hand (from known draws), graveyard, library, board, stack
+            -turn, priority, and timing
+        -card actions
+            -have to go through every card to see about requirements (mana value, targets, etc)
+        -1 land per turn, combat stuff
+-turns (P = round of priority)
+    -beginning
+        -untap
+        -upkeep (P)
+        -draw
+    -main1(P)
+    -combat
+        -beginning of combat (P)
+        -declare attackers (P)
+        -declare blockers (P)
+        -dmg (P)
+        -after damage step (P)
+    -main2 (P)
+    -enf phase
+        -end step (P)
+        -cleanup step
