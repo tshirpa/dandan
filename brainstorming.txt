@@ -12,6 +12,9 @@ game runner
             -have to go through every card to see about requirements (mana value, targets, etc)
         -1 land per turn, combat stuff
 -turns (P = round of priority)
+    - turn 0 (starting a game)
+    -starting player
+    - mulligans
     -beginning
         -untap
         -upkeep (P)
